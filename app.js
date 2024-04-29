@@ -1,9 +1,9 @@
+// Импортируем midlwares
+const cors = require("./middlewares/cors");
+
 const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
-
-// Импортируем midlwares
-const cors = require("./middlewares/cors");
 
 // Импортируем роутеры
 const mainRoute = require("./routes/main");

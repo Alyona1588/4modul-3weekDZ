@@ -1,1 +1,65 @@
-[{"id":1,"title":"Crystal Keeper","description":"Управляй боевым дроном, чтобы любой ценой защитить кристалл от враждебных космослизней.","image":"https://code.s3.yandex.net/teens/pindie-games/cristal-keeper/cover.png","link":"https://code.s3.yandex.net/teens/pindie-games/cristal-keeper/game/index.html"},{"id":2,"title":"Dangeons'n'Caves. Prologue","description":"Безымянный герой исследует пещеры и подземелья, чтобы найти больше информации о себе.","image":"https://code.s3.yandex.net/teens/pindie-games/dangeons-n-caves-prologue/cover.png","link":"https://code.s3.yandex.net/teens/pindie-games/dangeons-n-caves-prologue/game/index.html"},{"id":3,"title":"Buhf 111","image":"http://Fsdfjkl.ru","link":"http://Fsd908fjkl.ru","description":"Jgbcfybt"},{"id":4,"title":"wrew","image":"http://Fsdfjkl.ru","link":"http://Fsdfjkl.ru","description":"werw"},{"id":5,"title":"qwrw","image":"http://Fsdfjkl.ru","link":"http://Fsdfjkl.ru","description":"rwqerwqer"}]
+[
+  {
+    "id": 1,
+    "title": "Crystal Keeper",
+    "description": "Управляй боевым дроном, чтобы любой ценой защитить кристалл от враждебных космослизней.",
+    "image": "https://code.s3.yandex.net/teens/pindie-games/cristal-keeper/cover.png",
+    "link": "https://code.s3.yandex.net/teens/pindie-games/cristal-keeper/game/index.html"
+  },
+  {
+    "id": 2,
+    "title": "Dangeons'n'Caves. Prologue",
+    "description": "Безымянный герой исследует пещеры и подземелья, чтобы найти больше информации о себе.",
+    "image": "https://code.s3.yandex.net/teens/pindie-games/dangeons-n-caves-prologue/cover.png",
+    "link": "https://code.s3.yandex.net/teens/pindie-games/dangeons-n-caves-prologue/game/index.html"
+  },
+  {
+    "id": 3,
+    "title": "Game 3",
+    "image": "https://dzen.ru/",
+    "link": "https://dzen.ru/",
+    "description": "Описание игры 3"
+  },
+  {
+    "id": 4,
+    "title": "Game 4",
+    "image": "https://dzen.ru/",
+    "link": "https://dzen.ru/",
+    "description": "Описание игры 4"
+  },
+  {
+    "id": 5,
+    "title": "Game 5",
+    "image": "https://dzen.ru/",
+    "link": "https://dzen.ru/",
+    "description": "Описание игры 5"
+  },
+  {
+    "id": 6,
+    "title": "Game  6",
+    "image": "http://localhost:3000/",
+    "link": "http://localhost:3000/",
+    "description": "Описание игры 6"
+  },
+  {
+    "id": 7,
+    "title": "Game 7",
+    "image": "https://dzen.ru/",
+    "link": "https://dzen.ru/",
+    "description": "Описание игры 7"
+  },
+  {
+    "id": 8,
+    "title": "Game 8",
+    "image": "https://dzen.ru/?yredirect=true&clid=2270456&win=570",
+    "link": "https://dzen.ru/?yredirect=true&clid=2270456&win=570",
+    "description": "Описание игры 8"
+  },
+  {
+    "id": 9,
+    "title": "Game  9",
+    "image": "https://dzen.ru/",
+    "link": "https://dzen.ru/",
+    "description": "Описание игры 9"
+  }
+]

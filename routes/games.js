@@ -1,15 +1,33 @@
 // routes/games.js
 const gamesRouter = require("express").Router(); // Создали роутер
-const {
-  deleteGame,
-  addGameController,
-  sendAllGames,
-} = require("../controllers/games"); // функции для работы с играми
+const { sendAllGames, sendUpdatedGames } = require("../controllers/games"); // функции для работы с играми
 
-const getAllGames = require("../middlewares/games");
+const {
+  getAllGames,
+  checkIsTitleInArray,
+  updateGamesArray,
+  updateGamesFile,
+  deleteGame,
+  findGameById,
+} = require("../middlewares/games");
 
 gamesRouter.get("/games", getAllGames, sendAllGames);
-gamesRouter.delete("/games/:id", getAllGames, deleteGame);
-gamesRouter.post("/games", getAllGames, addGameController);
+
+gamesRouter.post(
+  "/games",
+  getAllGames,
+  checkIsTitleInArray,
+  updateGamesArray,
+  updateGamesFile,
+  sendUpdatedGames
+);
+gamesRouter.delete(
+  "/games/:id",
+  getAllGames,
+  findGameById,
+  deleteGame,
+  updateGamesFile,
+  sendUpdatedGames
+);
 
 module.exports = gamesRouter;
